@@ -1,0 +1,62 @@
+body {
+
+    background-color: rgb(15, 10, 78);
+}
+img {
+
+    width: 200px;
+    height: 200px;
+    padding-left: 250px;
+}
+
+.precice {
+
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20x auto;
+  border: 2px solid grey;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-radius: 3cm;
+  height: 20px;
+  background-color: rgb(20, 9, 9);
+  
+
+  
+  
+
+}
+
+a:link {
+  color: red;
+}
+
+#naslov h1 {
+  padding-top: 100px;
+  color: grey;
+  padding-left: 250px;
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.podnaslov h2 {
+  background-color: rgb(32, 71, 102);
+   color: grey;
+   padding-left: 30px;
+   height:  200px;
+   margin: 0 auto;
+   margin-left: 250px;
+   margin-right: 250px;
+   border: 2px solid grey;
+  border-radius: 2cm;
+  padding-top: 10px;
+  text-decoration:underline ;
+  font-size: 22px;
+}
+
+.podnaslov img {
+  width: 300px;
+  height: 200px;
+  
+
+}

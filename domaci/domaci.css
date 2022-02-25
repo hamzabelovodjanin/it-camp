@@ -1,0 +1,59 @@
+/* ------------------------------------------ PRVI DEO -------------------------------------------------------------------------- */
+
+.prvideo {
+background-color: rgb(231, 10, 10);
+color: rgb(69, 67, 71);
+width: 300px;
+height: 300px;
+}
+#deskripcija1 {
+
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 40px;
+}
+h4 {
+
+    color: aquamarine;
+}
+
+/* /* ------------------------------------------ DRUGI DEO -------------------------------------------------------------------------- */ 
+#NFT {
+background-color: rgb(30, 30, 214);
+width: 300px;
+height: 300px;
+}
+
+h3{
+ color: rgb(212, 0, 255);
+
+}
+
+#deskripcija2 {
+text-align: center;
+text-decoration: underline;
+color: fuchsia;
+font-size: 40px;
+}
+/* /* ------------------------------------------ Treci DEO -------------------------------------------------------------------------- */ 
+.naslov {
+color: rgb(72, 38, 197);
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+}
+
+#deskripcija3 {
+color: rgb(72, 142, 233);
+text-align: center;
+text-decoration: underline;
+font-size: 40px;
+
+}
+h5 {
+    color: aqua;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+/* /* ------------------------------------------ KRAJ -------------------------------------------------------------------------- */ 

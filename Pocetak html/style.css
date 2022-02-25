@@ -1,0 +1,43 @@
+/* Domaci
+Napravti tri diva 300x300 , jedan oznaciti preko klase, jedan preko IDa , treci preko klase i Ida.
+Prvi div - crvena pozadina
+Drugi div - Plava 
+Treci div - narandzassta
+i u svakom divu da ima po jedan <p> koji je centriran i koji je gadjan preko ida */
+
+h1 {
+    color: rgb(28, 185, 190);
+    text-transform: uppercase;
+    text-decoration: underline;
+    width: 400px;
+
+}
+/* Klasa se selektuje  ( tacka (.) - Ime klase */
+.naslov {
+color: rgb(15, 180, 15);
+text-decoration: underline;
+
+
+
+}
+#id:hover {
+
+    background-color: aquamarine;
+   
+}
+
+#id {
+         color: green;
+         font-size: 60px;
+         background-color: rgb(255, 255, 2);
+         text-decoration: line-through;
+         font-weight: 100;
+
+}
+/* ID JE NA 1 mestu, POSLE KLASA PA TAG */
+p {
+    color: green;
+    font-size: 60px;
+    text-decoration: underline;
+    text-align: center;
+}

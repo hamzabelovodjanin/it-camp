@@ -1,0 +1,28 @@
+body {
+
+    background-color: blueviolet;
+}
+
+div {
+
+    background-color: darkblue;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border: 10px solid green;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+ 
+h1 {
+
+    text-align: center;
+}
+
+p { 
+ text-align: center;
+}
+h4 {
+
+    text-align: center;
+}
