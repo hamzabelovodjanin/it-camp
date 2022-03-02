@@ -1,0 +1,20 @@
+.naslov1 span {
+    color: aqua;
+    
+    
+    
+}
+.naslov{
+
+    display: none;
+}
+div {
+
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+ 
