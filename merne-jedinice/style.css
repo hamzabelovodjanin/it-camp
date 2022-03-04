@@ -1,0 +1,80 @@
+* {margin: 0;}
+
+
+/* width 100% = 100vw
+height 100vh = 100% */
+/* .flex {
+
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 0, 255);
+
+}
+
+.unutar-flexa-prvi {
+    width: 25%;
+    height: 500px;
+    background-color: aqua;
+
+
+}
+
+
+.unutar-flexa-drugi {
+    width: 25%;
+    height: 500px;
+    background-color: rgb(0, 255, 115);
+    
+
+}
+
+.unutar-flexa-treci {
+    width: 25%;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+
+
+}
+.unutar-flexa-cetvrti {
+    width: 25%;
+    height: 500px;
+    background-color: rgb(2, 106, 6);
+
+} */
+
+/* .vh-vw {
+    background-color: black;
+    height: 100vh;
+    width: 50vw;
+
+}
+
+.navigacija {
+
+    background-color: aliceblue;
+    height: 7vh;
+} */
+
+/* /* html {
+
+    font-size: 10px;
+} */
+/* 1rem = Koliko stavimo da je font-size u celom htmlu. Po defaultu je 1rem = 16px */
+h1 {
+
+    font-size: 10rem;
+}
+
+p {
+
+    font-size: 1.5rem;
+} 
+
+.em { font-size: 100px;}
+
+span { font-size: 1em;}
+
+p {font-size: 1rem;}
+
