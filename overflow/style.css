@@ -1,0 +1,30 @@
+div {
+
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+
+
+}
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
+/* 
+
+
+h1 {
+
+    font-size: 50px;
+}
+
+ .drugi {
+    background-color: rgb(4, 0, 255);
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+ */
+
+ } */
