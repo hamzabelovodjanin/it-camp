@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 * {margin: 0;}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
@@ -17,32 +21,19 @@ body {
     align-items: center;
 }
 
-.naslov {
+.nav {
 
-    padding-left: 100px;
+    margin-right: 20px;
 }
 
+.nav a {
 
-.linkovi {
-
-    padding-right: 100px;
-    
-}
-.linkovi a {
     color: black;
+    font-size: 20px;
     text-decoration: none;
-    padding: 16px 20px;
-    font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
-
-.linkovi a:hover {
-
-    color: rgb(0, 110, 255);
-    text-decoration: underline;
-    transition: 1s;
-}
 
 
 
@@ -57,15 +48,15 @@ main {
 
 .hero {
 
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-top: 300px;
+    padding-left: 20px;
     font-family: 'Poppins',sans-serif;
 }
 
 span { color: blue;}
 
 .dugme {
-    display: flex;
+     display: flex;
      flex-direction: row;
      align-items: center;
      gap: 30px;
@@ -114,12 +105,13 @@ padding-left: 30px; }
     .boxovi {
 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         gap: 20px;
         margin-right: 80px;
         margin-top: 50px;
         margin-bottom: 100px;
+        margin-left: 30px;
         
     }
 
