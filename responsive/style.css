@@ -1,0 +1,29 @@
+body {
+    height: 2000px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
+.item {
+    
+    width: 75px;
+    height: 75px;
+    margin: 15px ;
+    background-color: rgb(248, 121, 206);
+}
+
+@media only screen and (max-width: 600px) {
+    .container { flex-direction: column;
+    
+    }
+    .item {
+        background-color: indigo;
+    }
+  }
