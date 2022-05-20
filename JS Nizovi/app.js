@@ -19,10 +19,15 @@
 
 // }
 
-const studenti = ["Marko", "Janko", "Sasa"]
-studenti [8] = "Zika"
-console.log(studenti)
+// const studenti = ["Marko", "Janko", "Sasa"]
+// studenti [8] = "Zika"
+// console.log(studenti)
 
 
-const druginiz = new Array("Clan1", "Clan2", "Clan3")
-console.log(druginiz)
+// const druginiz = new Array("Clan1", "Clan2", "Clan3")
+// console.log(druginiz)
+
+// const automobili = ["BMW", "Audi", "VW", "Mercedes"]
+// automobili [5] = 0
+// console.log(automobili)
+
