@@ -102,34 +102,39 @@
 // alert(mnozenje(prvi,drugi,treci))
 
 
-const cars = ["BMW", "Audi", "Smart"]
-//DODAVANJE ELEMENTA NA KRAJU NIZA = PUSH
-cars.push("MB", "RR" )
-//ZA BRISANJE ZADNJEG CLANA = POP
-// cars.pop()
-// DODAVANJE NA POCETAK NIZA = unshift
-cars.unshift("Nissan")
+// const cars = ["BMW", "Audi", "Smart"]
+// //DODAVANJE ELEMENTA NA KRAJU NIZA = PUSH
+// cars.push("MB", "RR" )
+// //ZA BRISANJE ZADNJEG CLANA = POP
+// // cars.pop()
+// // DODAVANJE NA POCETAK NIZA = unshift
+// cars.unshift("Nissan")
 
-// BRISANJE PRVOG CLANA NIZA = shift
-// cars.shift()
+// // BRISANJE PRVOG CLANA NIZA = shift
+// // cars.shift()
 
-// OKRECE NIZ NAOPAKO = reverse
+// // OKRECE NIZ NAOPAKO = reverse
 
-cars.reverse();
+// cars.reverse();
 
-// SPAJANJE DVA NIZA = concat(niz)
-const imena = ["Faris", " Isko", "Aldin"]
-const age = [20,100,50,120,200,76]
+// // SPAJANJE DVA NIZA = concat(niz)
+// const imena = ["Faris", " Isko", "Aldin"]
+// const age = [20,100,50,120,200,76]
 
-const spojeniNiz = imena.concat(age)
-console.log(spojeniNiz)
+// const spojeniNiz = imena.concat(age)
+// console.log(spojeniNiz)
 
-// TRAZENJE CLANA NIZA = Find
-const trazenaVrednost = age.find((el) => el > 50)
-console.log(trazenaVrednost)
+// // TRAZENJE CLANA NIZA = Find
+// const trazenaVrednost = age.find((el) => el > 50)
+// console.log(trazenaVrednost)
+
+// // TRAZENJE INDEXA = findindex
+
+// const trazeniIndex = age.findIndex((el) => el > 100 )
+// console.log(trazeniIndex)
 
 
-console.log(cars)
+// console.log(cars)
 // const godine = [11, 76, 26, 6, 23, 21, 29, 16]
 // const druge_godine = [11, 76, 8, 10, 5 , 14 , 28, 98, 101
 // ]
@@ -145,4 +150,66 @@ console.log(cars)
 
 // }
 // console.log(returnAdults(druge_godine))
+
+//FILTER FUNKCIJA - VRACA NIZ
+
+// Vracanje parnih brojeva
+// const DATA = [100, 65, 76, 80, 99, 53, 1, 2, 44]
+
+// const returnEven = (numbers) => {
+//     return evenNumber = numbers.filter(number => number % 2 === 0  && number <= 50)
+    
+
+// }
+// MAP FUNKCIJA - VRACA NIZ
+
+
+// const DATA = [5, 3, 2, 8, 7, 9]
+// const returnPow = (numbers) => {
+
+//     return pow = numbers.map(el => el * el + 10)
+    
+
+
+// }
+
+// console.log(returnPow(DATA))
+
+// REDUCE FUNKCIJA - VRACA BROJEVE, STRINOGOVE...
+
+// const DATA = [100, 200, 250, 400, 520]
+
+// const cartTotal = DATA.reduce(
+// (previousValue,currentValue) => previousValue + currentValue,500 )
+
+
+// const DATA = [26,18,16,22,30,28 ]
+// const sumAvgAge = (ages) => {
+// const getAverage =
+//  ages.reduce((previousValue, currentValue ) =>  previousValue + currentValue) / ages.length
+ 
+//  return +(getAverage.toFixed(2))
+
+// // const average = sum / ages.length
+
+
+// }
+
+
+// console.log(sumAvgAge(DATA))
+// some funkcija
+// const array = [1, 2, 3, 4, 5];
+// const even = (element) => element % 2 === 0;
+// console.log(array.some(even));
+
+// // EVERY FUNKCIJA
+// const isBelowThreshold = (currentValue) => currentValue < 40;
+// const array1 = [1, 30, 39, 29, 10, 13];
+// console.log(array1.every(isBelowThreshold));
+
+
+
+
+
+
 
