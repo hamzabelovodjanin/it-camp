@@ -207,9 +207,11 @@
 // const array1 = [1, 30, 39, 29, 10, 13];
 // console.log(array1.every(isBelowThreshold));
 
+// const niz = [10,25,37,79,54,86,34,38,89]
+// const sumaEl = 0
+// for (let i = 0; i < niz.length ; i++) {
+//     if (niz[i] % 2 === 0) 
+//     console.log(niz[i])
 
-
-
-
-
+// }
 
