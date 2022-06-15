@@ -129,35 +129,112 @@
     
 
 
-const person = {
-    name : "John Doe",
-    age: 22,
-}
-const car = {
-    name: "Audi",
-}
-function sayHello () {
+// const person = {
+//     name : "John Doe",
+//     age: 22,
+// }
+// const car = {
+//     name: "Audi",
+// }
+// function sayHello () {
 
-    console.log (`Hello ${this.name}`)
-}
-sayHello.call(person)
+//     console.log (`Hello ${this.name}`)
+// }
+// sayHello.call(person)
 
 
-let hrana = { food: "Pizza"}
+// let hrana = { food: "Pizza"}
 
-function favFood(text, rating) {
-    return `${this.food} ${text} ${rating}`
-}
-console.log(favFood.call(hrana, "je ukusna", 9)) // PRVI ARGUMENT JE OBJEKAT ZA KOJI CEMO DA ZAKACIMO THIS
-console.log(favFood.apply(hrana, ["nije ukusna", 6])) //PRVI ARGUMENT JE OBJEKAT ZA KOJI CEMO DA ZAKACIMO THIS(I ide u niz)
+// function favFood(text, rating) {
+//     return `${this.food} ${text} ${rating}`
+// }
+// console.log(favFood.call(hrana, "je ukusna", 9)) // PRVI ARGUMENT JE OBJEKAT ZA KOJI CEMO DA ZAKACIMO THIS
+// console.log(favFood.apply(hrana, ["nije ukusna", 6])) //PRVI ARGUMENT JE OBJEKAT ZA KOJI CEMO DA ZAKACIMO THIS(I ide u niz)
 
-// console.log(favFood.bind(hrana))
+// // console.log(favFood.bind(hrana))
 
-const bindFunc = favFood.bind(hrana)
+// const bindFunc = favFood.bind(hrana)
 
-console.log(bindFunc('nije nesto' , 8)) // BIND VRACA FUNKCIJU
+// console.log(bindFunc('nije nesto' , 8)) // BIND VRACA FUNKCIJU
 
-const ime = 'John Doe'
-const zanimanje = 'ubica'
-const godine = 40
-console.log(`${ime} je, ${zanimanje} i ima ${godine}`)
+// const ime = 'John Doe'
+// const zanimanje = 'ubica'
+// const godine = 40
+// console.log(`${ime} je, ${zanimanje} i imaa ${godine}`)
+
+
+
+// const auto = {
+//     name: "Audi",
+//     Model: "RS6",
+// }
+// function sayHelo () {
+//     console.log(`Helo ${this.name}`)
+// }
+// sayHelo.call(auto)
+
+
+// const person1 = {
+//     name: "John Doe",
+//     age: 48,
+//     job: "Employed",
+//     adress: "USA",
+//     kids: 4,
+
+// };
+// const person2 = person1
+// person2.name = "ime"
+// console.log(Object.is(person1,person2))
+
+
+// const names = ["Faris", "Aldin", "Senad", "Dzenan", "Sabina"]
+
+
+// const newNames = ['Isko', ...names]
+// console.log(newNames)
+// console.log(names)
+
+
+// const numbers = [1,2,3,1,5,2,7,10]
+// const Imena = ["as", "sa", "sas"]
+// const nemaDuplih = [...new Set(numbers)] // Set se koristi da makne sve duple clanove i uz pomoc [...new Set] set pretvaramo u niz
+// const kvadrati = nemaDuplih.map(el => el*el) // OVo se moze koristiti samo ako set pretvorimo u niz
+// console.log(kvadrati)
+// console.log(nemaDuplih)
+
+// const spojeni = [...numbers, ...Imena]
+
+
+// const person = {
+//     name: "John",
+//     state: "Usa",
+
+// }
+
+// const extendedPerson = {
+//     ...person,
+//     phone: "381623294205",
+//     adress : "NY 5",
+//     age: 34,
+// }
+
+// console.log(extendedPerson)
+// console.log(Person)
+
+const movies = [
+    {name: "Movie 1", rating: 8, budget: "230M"},
+    {name: "Movie 2", rating: 5, budget: "30M"},
+    {name: "Movie 3", rating: 9, budget: "530M"},
+    {name: "Movie 4", rating: 4, budget: "200M"},
+    {name: "Movie 5", rating: 9.5, budget: "120M"},
+
+]
+
+const newMoviesArray = movies.map((movie) => {
+    return {
+        title : movie.title
+        budget : movie.budget
+    }
+})
+
+console.log(newMoviesArray)
