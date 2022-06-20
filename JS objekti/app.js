@@ -221,20 +221,34 @@
 // console.log(extendedPerson)
 // console.log(Person)
 
-const movies = [
-    {name: "Movie 1", rating: 8, budget: "230M"},
-    {name: "Movie 2", rating: 5, budget: "30M"},
-    {name: "Movie 3", rating: 9, budget: "530M"},
-    {name: "Movie 4", rating: 4, budget: "200M"},
-    {name: "Movie 5", rating: 9.5, budget: "120M"},
+// const movies = [
+//     {name: "Movie 1", rating: 8, budget: "230M"},
+//     {name: "Movie 2", rating: 5, budget: "30M"},
+//     {name: "Movie 3", rating: 9, budget: "530M"},
+//     {name: "Movie 4", rating: 4, budget: "200M"},
+//     {name: "Movie 5", rating: 9.5, budget: "120M"},
 
-]
+// ]
 
-const newMoviesArray = movies.map((movie) => {
-    return {
-        title : movie.title
-        budget : movie.budget
-    }
-})
+// const newMoviesArray = movies.map((movie) => {
+//     return {
+//         title : movie.title
+//         budget : movie.budget
+//     }
+// })
 
-console.log(newMoviesArray)
+// console.log(newMoviesArray)
+// function drugiPosao() {
+//     console.log("drugi posao!!!!!!!") 
+// }
+
+
+// function nekiPosao(argu1) {
+//     console.log("pocetak posla")
+//     for (let index = 0; index < 1; index++) {
+//         console.log("kraj posla")
+//         argu1();
+//     } ;
+// }
+// nekiPosao(drugiPosao)
+
