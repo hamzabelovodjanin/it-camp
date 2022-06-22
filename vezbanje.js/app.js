@@ -48,33 +48,56 @@
 
 
 
-posao = new Promise ((resolve,reject) => {
-    response = 200
-    for (let i = 0; i < 999000000; i++) {
+// posao = new Promise ((resolve,reject) => {
+//     response = 200
+//     for (let i = 0; i < 999000000; i++) {
         
-        }
-    if( response === 200) {
-        resolve([1,2,3,4,5])
+//         }
+//     if( response === 200) {
+//         resolve([1,2,3,4,5])
+//     }
+//     else {
+//         reject("GRESKAAAAAAAAA!!!")
+//     }
+// })
+
+// posao.then((data)=> {   //then se koristi ako je uspesan odgovor
+
+//     console.log("uspesno si povukao podatke", data)
+//     arg = data.filter((el) => el % 2 === 0)
+//     return arg
+// })
+// .then((arg1) => {
+//     console.log("Parni brojevi ", arg1)
+// })
+
+
+// .catch((err)=>{ // catch se koristi ako je neuspesan odgovor
+//     console.log("neuspesno si povukao podatke", err)
+// })
+
+// .finally (() => {
+//     console.log("disati")
+// })
+
+
+// for (var i = 0; i < 10; i++) {
+//     setTimeout (()=> {
+//         console.log(i)
+//     }, 0)
+// }
+
+// for (let i = 0; i < 10; i++) {
+//     setTimeout (()=> {
+//         console.log(i)
+//     }, 0)
+// }
+
+function mojaFunc() {
+    console.log('a')
+    function drugafunc() {
+        console.log('druga')
     }
-    else {
-        reject("GRESKAAAAAAAAA!!!")
-    }
-})
-
-posao.then((data)=> {   //then se koristi ako je uspesan odgovor
-
-    console.log("uspesno si povukao podatke", data)
-    arr = data.filter((el) => el % 2 === 0)
-    return arr
-})
-.then((arg1) => {
-    console.log("Parni brojevi ", arg1)
-})
-
-.catch((err)=>{ // catch se koristi ako je neuspesan odgovor
-    console.log("neuspesno si povukao podatke", err)
-})
-
-.finally (() => {
-    console.log("disati")
-})
+    return drugafunc()
+}
+mojaFunc()
