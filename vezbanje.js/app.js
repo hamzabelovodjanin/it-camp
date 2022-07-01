@@ -93,11 +93,5 @@
 //     }, 0)
 // }
 
-function mojaFunc() {
-    console.log('a')
-    function drugafunc() {
-        console.log('druga')
-    }
-    return drugafunc()
-}
-mojaFunc()
+
+
