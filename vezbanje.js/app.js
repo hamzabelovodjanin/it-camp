@@ -95,3 +95,46 @@
 
 
 
+// const BASE_URL = "https://jsonplaceholer.typicode.com"
+
+// const getUsers = async () => {
+//     const response = await fetch (`${BASE_URL}/users`)
+//     const users = await response.users
+//     return users;
+// };
+
+// getUsers().then((users) => {
+//     const newUsers = users.map(el) =>{
+//     return {
+//         name: el.name
+//         username: el.username
+//         phone: el.phone
+
+//     };
+    
+//     };
+    
+
+
+
+
+
+// });
+// console.log(newUsers)
+
+
+const array1 = [
+    { id: "333222111", name: "Sulejman", age: "22" },
+    { id: "321123432", name: "Stefan", age: "25" },
+    { id: "222312543", name: "Semir", age: "32" },
+];
+
+function getObjects(array, key, value) {
+    return array.filter(Object => [key] == value)
+}
+
+console.log(getObjects(array1, "name", "Semir"));
+// result: [ { id: '222312543', name: 'Semir', age: '32' } ] 
+
+console.log(getObjects(array1, "name", "Suad"));
+// result: [ ]
