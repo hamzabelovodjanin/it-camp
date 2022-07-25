@@ -49,7 +49,8 @@ const CART_DATA = [
     const cenaPostarine = 320;
     const cena = arr.map((value) => {
         return {
-            name: value.name, totalPrice: value.price * value.amount
+            name: value.name, 
+            totalPrice: value.price * value.amount
         }
     });
     const sum = cena.map((value) => value.totalPrice).reduce((prevV, currV) => prevV + currV, 360)
